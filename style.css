@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bar{
+    height: 100px;
+    width: 100vw;
+    background-color: rgb(39, 20, 20);
+    color: azure;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+.images{
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    gap: 150px;
+    margin-top: 35px;
+}
+
+.choice{
+    height: 160px;
+    width: 175px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.score{
+    margin-top: 50px;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.your-score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.ypara{
+    font-size: 2rem;
+}
+.computer-score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.cpara{
+    font-size: 2rem;
+}
+
+.your-move{
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.move-btn{
+    height: 30px;
+    background-color: rgb(21, 10, 52);
+    color: rgb(255, 255, 255);
+    display: inline;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.3rem;
+    padding-bottom: 5px;
+
+}
+
